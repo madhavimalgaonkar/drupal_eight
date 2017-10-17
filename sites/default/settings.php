@@ -23,3 +23,15 @@ $local_settings = __DIR__ . "/settings.local.php";
 if (file_exists($local_settings)) {
   include $local_settings;
 }
+$databases['default']['default'] = array (
+  'database' => 'drupal8blog',
+  'username' => 'root',
+  'password' => 'password',
+  'prefix' => '',
+  'host' => 'localhost',
+  'port' => '3306',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);
+$settings['hash_salt'] = 'nZ8SBHzEkiygMIbpwVpysYj-L8BioGI4dHStHdNHto9X-bF5vVCd_fV25QUcgxHjhLOPdx1XVQ';
+$settings['install_profile'] = 'osseed';
