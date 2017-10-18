@@ -24,14 +24,14 @@ if (file_exists($local_settings)) {
   include $local_settings;
 }
 $databases['default']['default'] = array (
-  'database' => 'drupal8blog',
+  'database' => 'd8',
   'username' => 'root',
-  'password' => 'password',
+  'password' => 'root',
   'prefix' => '',
   'host' => 'localhost',
   'port' => '3306',
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
 );
-$settings['hash_salt'] = 'nZ8SBHzEkiygMIbpwVpysYj-L8BioGI4dHStHdNHto9X-bF5vVCd_fV25QUcgxHjhLOPdx1XVQ';
+$settings['hash_salt'] = 'EChXW5_iqSHDC23nVXdvaEWyvjSuDB7L-qOmDKPBsW066jGi0u5G7gwQF0eXCny5TcX6x9i7aA';
 $settings['install_profile'] = 'osseed';
