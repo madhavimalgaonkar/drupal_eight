@@ -23,15 +23,4 @@ $local_settings = __DIR__ . "/settings.local.php";
 if (file_exists($local_settings)) {
   include $local_settings;
 }
-$databases['default']['default'] = array (
-  'database' => 'd8',
-  'username' => 'root',
-  'password' => 'root',
-  'prefix' => '',
-  'host' => 'localhost',
-  'port' => '3306',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-  'driver' => 'mysql',
-);
-$settings['hash_salt'] = 'EChXW5_iqSHDC23nVXdvaEWyvjSuDB7L-qOmDKPBsW066jGi0u5G7gwQF0eXCny5TcX6x9i7aA';
 $settings['install_profile'] = 'osseed';
