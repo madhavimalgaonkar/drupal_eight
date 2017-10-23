@@ -1,0 +1,13 @@
+uuid: e94a377e-50ed-4c23-bbac-c4981794d6b4
+langcode: en
+status: true
+dependencies: {  }
+id: blogger
+label: Blogger
+weight: 3
+is_admin: null
+permissions:
+  - 'access comments'
+  - 'create blog content'
+  - 'delete own blog content'
+  - 'edit own blog content'

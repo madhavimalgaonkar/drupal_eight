@@ -23,4 +23,5 @@ $local_settings = __DIR__ . "/settings.local.php";
 if (file_exists($local_settings)) {
   include $local_settings;
 }
+$settings['hash_salt'] = 'EChXW5_iqSHDC23nVXdvaEWyvjSuDB7L-qOmDKPBsW066jGi0u5G7gwQF0eXCny5TcX6x9i7aA';
 $settings['install_profile'] = 'osseed';
